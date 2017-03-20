@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     font-size: 20px;
+    font-family: "微软雅黑"
 }
 html,body{
     width: 100%;
@@ -15,6 +16,7 @@ a{
 a:focus{
     outline: none;
 }
+
 nav{
     width: 100%;
     height: 4rem;
@@ -26,15 +28,51 @@ nav div{
     line-height: 4rem;
     display: flex;
     justify-content:space-between; 
+    -moz-justify-content:space-between;
+    -o-justify-content:space-between;
+    -webkit-justify-content:space-between;
 }
 nav div a{
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 nav div a:hover{
     text-decoration: none;
     color: #ccc;
 }
+/*图标导航*/
+.tbnav{
+    width: 100%;
+    height: 100px;
+    background:rgba(242,242,242,0.7);
+    padding-bottom: 0.5vw;
+}
+.tbnav div{
+    width: 50%;
+    display: flex;
+    /*margin:0 auto;*/
+    justify-content:space-between;
+    -moz-justify-content:space-between;
+    -o-justify-content:space-between;
+    -webkit-justify-content:space-between;
+    margin-left: 40%;
+}
+.tbnav div p{
+    padding-top: 0.5vw;
+    line-height: 1.3rem;
+    text-align: center;
+}
+.tbnav div p a{
+    font-size: 0.5rem;
+}
+.tbnav div p a:hover{
+    color:#0070c9;
+    text-decoration: none;
+}
+.tbnav div p a:hover span{
+    color: #000;
+}
+/*图标导航结束*/
 
 /*轮播*/
 .banner{
@@ -49,14 +87,26 @@ nav div a:hover{
     float: left;
     text-align: center;
 }
+.banner>div a:hover{
+    text-decoration: none;
+}
 .banner>div:nth-child(1){
     background: url('../images/iphone_banner1.jpg') no-repeat center center/100%;
     
 }
 .banner>div:nth-child(2){
     background: url('../images/watch_banner2.jpg') no-repeat center center/100%;
-        
 }
+
+.banner>div:nth-child(2) img{
+    margin-top: 100px;
+}
+.banner>div:nth-child(2) h2{
+    margin-top: 525px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
 .banner>div:nth-child(3){
     background: url('../images/macbook_banner3.jpg') no-repeat center 10vw/100%;
         
@@ -130,19 +180,19 @@ nav div a:hover{
 .promos{
     display: flex;
     justify-content:space-between; 
+    -moz-justify-content:space-between;
+    -o-justify-content:space-between;
+    -webkit-justify-content:space-between;
 }
 .promos p{
     flex:1 1 24%;
     border:1px solid #fff;
 }
 
-/*底部*/
-.footer{
-    width: 100%;
+.fotitle{
     background: #f2f2f2;
-    padding-bottom: 10px;
 }
-.footer .fotitle{
+.fotitle p{
     width: 55%;
     margin:0 auto;
     font-size: 0.7rem;
@@ -152,12 +202,24 @@ nav div a:hover{
     color: #888;
     border-bottom: 1px solid #d6d6d6;
 }
+.fotitle p a{
+    text-decoration: none;
+}
+/*底部*/
+.footer{
+    background: #f2f2f2;
+    padding-bottom: 10px;
+}
+
 .footer .footmain{
+    padding-bottom: 20px;
     width: 55%;
     margin:0 auto;
-    height: 25vw;
     display: flex;
     justify-content:space-between; 
+    -moz-justify-content:space-between;
+    -o-justify-content:space-between;
+    -webkit-justify-content:space-between;
 }
 .footer .footmain ul {
     margin-top:1rem;
@@ -182,7 +244,7 @@ nav div a:hover{
 }
 .footer .link{
     height: 1.5rem;
-    width: 55%;
+    width: 56%;
     text-align: left;
     color: #888;
     margin:0 auto;
@@ -190,7 +252,7 @@ nav div a:hover{
 }
 .footer .link>div{
     font-size: 0.5rem;
-    width: 30%;
+    width: 45%;
     height: 1.5rem;
     line-height: 1.5rem;
     display: inline-block;
@@ -207,7 +269,7 @@ nav div a:hover{
     border-right: 1px solid #d6d6d6;
 }
 .footer .link div:nth-child(3){
-    width:39%;
+    width:8%;
 }
 .footer .link>div:nth-child(3) span{
     color: red;
@@ -223,3 +285,158 @@ nav div a:hover{
     font-size: 0.5rem;
     color: #888;
 }
+
+
+/*图片与文字居中*/
+.macbody{
+    text-align: center;
+    overflow: hidden;
+}
+.macbody .macmg{
+    position: relative;
+    padding-top:100px;
+    /*background-image:linear-gradient(to bottom,#fff,#eee);*/
+}
+.macbody .macmg h2{
+    font-size: 5rem;
+}
+p.sping{
+     margin-top: 4rem;
+     color:#0070c9;
+}
+p.sping a{
+    color:#0070c9;
+    margin-left: 20px;
+}
+/*图片在右上 例子在ipad*/
+.macbody .macmg .rtxt{
+    position: relative;
+    right:200px;
+    z-index: 2;
+}
+.macbody .macmg .rimg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:100px;
+    left:-50%;
+    z-index:1;
+}
+.macbody .macmg .rimg img{
+    position: absolute;
+    left:100%;
+    
+}
+/*图片在左上*/
+.macbody .macmg .ltxt{
+    position: relative;
+    right:-200px;
+    z-index: 2;
+}
+.macbody .macmg .limg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:100px;
+    right: -50%;
+    z-index:1;
+}
+.macbody .macmg .limg img{
+    position: absolute;
+    right: 100%;
+    
+}
+
+/*免费送货*/
+.macbody .macmg .free{
+    width:60%;
+    margin:0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-around;
+    -moz-justify-content:space-around;
+    -o-justify-content:space-around;
+    -webkit-justify-content:space-around;
+}
+.macbody .macmg .free .lf{
+    flex:1 1 50%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.macbody .macmg .free .lf .pimg{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.macbody .macmg .free .lf p,.macbody .macmg .free .lf a{
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+.macbody .macmg .free .lf a{
+    color: #0070c9;
+}
+
+/*iphone中间两张背景图*/
+
+.mainbd{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.mainbd .twoimg{
+    width: 70%;
+    margin:0 auto;
+    text-align: center;
+    display: flex;
+    justify-content:space-between;
+    -moz-justify-content:space-between;
+    -o-justify-content:space-between;
+    -webkit-justify-content:space-between;
+}
+.mainbd .twoimg div{
+    width: 48%;
+    height: 650px;
+    padding-top: 80px;
+}
+
+p.link,p.link a{
+    color:#0070c9; 
+    font-size: 15px;
+}
+
+/*watch单独的标题与链接*/
+.txtlinkw{
+    width: 70%;
+    margin:50px auto;
+    text-align: center;
+    display: flex;
+    justify-content:space-around;
+    -moz-justify-content:space-around;
+    -o-justify-content:space-around;
+    -webkit-justify-content:space-around;
+}
+/*下面三张大图*/
+.bill>div{
+    margin-top:15px;
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+}
+
+.bill>div .billwp{
+    position: relative;
+    right: center;
+}
+
+.bill>div h1{
+    font-size: 40px;
+}
+.bill>div p{
+    font-size: 17px;
+    margin-top: 1.5rem;
+}
+.bill>div a{
+    color: #fff;
+    margin-left:2rem; 
+    font-size: 1.5rem;
+    
+    }

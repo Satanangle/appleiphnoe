@@ -1,0 +1,151 @@
+/*.macbody{
+    text-align: center;
+}*/
+.macbody .macmg{
+    padding-top:100px;
+    background-image:linear-gradient(to bottom,#fff,#eee);
+    background-image:-o-linear-gradient(to bottom,#fff,#eee);
+    background-image:-webkit-linear-gradient(to bottom,#fff,#eee);
+    background-image:-moz-linear-gradient(to bottom,#fff,#eee);
+}
+/*.macbody .macmg h2{
+    font-size: 5rem;
+}
+.macbody .macmg .sping{
+     margin-top: 4rem;
+     color:#0070c9;
+}
+.macbody .macmg .sping a{
+    color:#0070c9;
+    margin-left: 20px;
+}*/
+
+/*免费送货*/
+/*.macbody .macmg .free{
+    width:60%;
+    margin:0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content:space-around;
+}*/
+.macbody .macmg .free2{
+    width:40%;
+}
+/*.macbody .macmg .free .lf{
+    flex:1 1 50%;
+    text-align: center;
+    margin-bottom: 60px;
+}*/
+.macbody .macmg .free2 .lf{
+    text-align: left;
+    margin-left:10rem;
+}
+/*.macbody .macmg .free .lf span{
+    font-size: 5rem;
+}
+.macbody .macmg .free .lf p,.macbody .macmg .free .lf a{
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+.macbody .macmg .free .lf a{
+    color: #0070c9;
+}*/
+
+/*mac页面选项卡部分*/
+.mactab{
+    text-align: center;
+    padding-top: 8rem;
+    
+}
+.mactab .top>p,.mactab .botop>p{
+    font-size: 1.7rem;
+}
+.mactab .top>p a,.mactab .botop>p a{
+    font-size: 1.7rem;
+    color: #0070c9;
+}
+.mactab .top .tab,.mactab .botop .tab{
+    width: 40%;
+    margin:10px auto;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content:center;
+    -moz-justify-content:center;
+    -o-justify-content:center;
+    -webkit-justify-content:center;
+    margin-top: 30px;
+}
+.mactab .top .tab p,.mactab .botop .tab p{
+    padding:0 20px;
+    flex:1 1 auto;
+    font-size: 1rem;
+}
+.mactab .top .tab p:hover,.mactab .botop .tab p:hover{
+    cursor: pointer;
+}
+.mactab .top .tab p.active,.mactab .botop .tab p.active{
+    border-bottom: 1px solid #000;
+}
+.mactab .top .warps,.mactab .botop .warps{
+    height:660px;
+}
+.mactab .top .warp,.mactab .botop .warp{
+   /* width:60%;*/
+    position: absolute;
+    left:0;
+    right:0;
+    opacity: 0;
+    display: flex;
+    justify-content:center;
+    -moz-justify-content:center;
+    -o-justify-content:center;
+    -webkit-justify-content:center;
+    margin-top: 80px;
+}
+.mactab .top .warp.active,.mactab .botop .warp.active{
+    opacity: 1;
+}
+.mactab .top .warp div:nth-child(2),.mactab .botop .warp div:nth-child(1){
+    width: 15%;
+    margin-left: 3%;
+    text-align: left;
+    padding-top: 80px;
+}
+.mactab .top .warp div:nth-child(2) p,.mactab .botop .warp div:nth-child(1) p{
+    font-size: 1.5rem;
+}
+.mactab .top .warp div:nth-child(2) a,
+.mactab .botop .warp div:nth-child(1) a{
+    color: #0070c9;
+    font-size: 1.8rem;
+    position: relative;
+    z-index: 5;
+}
+.mactab .top .warp div:nth-child(2) a:hover,
+.mactab .botop .warp div:nth-child(1) a:hover{
+    text-decoration: underline;
+}
+
+.mactab .top .warp div:nth-child(2) span,
+.mactab .botop .warp div:nth-child(1) span{
+    color: #0070c9;
+}
+.mactab .botop .warp div:nth-child(2){
+    width: auto;
+}
+.mactab .botop{
+    margin-top: 100px;
+}
+.mactab .botop .tab{
+    width: 30%;
+}
+
+/*/*下面三张大图*/
+.bill>div{
+   height: 390px;
+}
+
+
+.fotitle p{
+    border:0;
+}

@@ -1,0 +1,67 @@
+.macbody .macmg{
+    background: #fafafa;
+}
+.macbody .macmg>img{
+    margin-top: 100px;
+}
+.macbody .macmg h1{
+    font-size: 5rem;
+}
+.macbody .macmg h2{
+    font-size: 3rem;
+}
+
+.macbody .macmg:nth-child(2){
+    height: 500px;
+}
+.macbody .macmg:nth-child(3){
+    height: 800px;
+}
+
+.macbody .macmg .limg img {
+    position: absolute;
+    top:-100px;
+    right: 90%;
+}
+
+.macbody .macmg:nth-child(4){
+    height: 500px;
+    background:#fafafa url('../images/ipad4.jpg') no-repeat center 300px/110% 50%;
+}
+.macbody .macmg:nth-child(5){
+    height: 800px;
+    background: #fff;
+}
+.macbody .macmg:nth-child(5) .limg img{
+    position: absolute;
+    top:0px;
+    right: 80%;
+}
+.macbody .macmg:nth-child(6){
+    background: #fff;
+}
+.macbody .macmg:nth-child(8){
+    margin-top: 15px;
+    background: #f7f7f7;
+}
+
+
+/*下面四张大图*/
+.bill>div{
+    height: 560px;
+}
+.bill>div:nth-child(1){
+    margin-top: 0;
+    color: #333;
+}
+.bill>div:nth-child(1) .billwp p:nth-child(3),
+.bill>div:nth-child(1) .billwp a{
+    color: #0070c9;
+}
+.bill>div .billwp{
+    top:30%;
+}
+
+.fotitle p{
+    border:0;
+}

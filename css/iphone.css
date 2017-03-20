@@ -1,0 +1,140 @@
+.tbnav{
+    background: #333;
+}
+.tbnav>div{
+    width:30%;
+    margin-left: 45%;
+}
+.tbnav>div p a{
+    color: #fff;
+}
+.tbnav>div p a:hover span{
+    color: #fff;
+}
+
+.iphonehd{
+    padding-top: 100px;
+    text-align: center;
+    color: #fff;
+    height: 800px;
+    background:#000 url('../images/iphone1.jpg') no-repeat 410px 300px/70% 70%;
+}
+.iphonehd p:nth-child(1){
+    font-size: 30px;
+    font-weight: 600;
+}
+.iphonehd p:nth-child(1) span{
+    font-size: 60px;
+}
+
+.iphonehd a,.iphonehd p:nth-child(2){
+    color:#6bf;
+}
+.iphonehd p:nth-child(3),.iphonehd p:nth-child(3) a{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.mainbd{
+    background: #eee;
+}
+.mainbd .twoimg div p span{
+    font-size: 40px;
+}
+.mainbd .twoimg div:nth-child(2){
+    color: #fff;
+}
+.mainbd .twoimg2 div:nth-child(2){
+    color: #000;
+}
+.mainbd .twoimg2 ul{
+    width: 60%;
+    margin:0 auto;
+    margin-top: 350px;
+}
+.mainbd .twoimg2 ul li{
+    text-align: left;
+    font-size: 14px;
+}
+.mainbd .sevenimg{
+    width: 70%;
+    margin:50px auto;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #fff;
+}
+.mainbd .sevenimg h4{
+    font-size: 40px;
+}
+.mainbd .sevenimg .sevenico{
+    display: flex;
+    justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around;
+    -webkit-justify-content:space-around;
+}
+.mainbd .twosd{
+    width:70%;
+    height:720px;
+    margin:0 auto;
+    background: url('../images/iphone6.jpg') no-repeat center center/100% 100%;
+    display: flex;
+    justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around;
+    -webkit-justify-content:space-around;
+    text-align: center;
+}
+.mainbd .twosd div{
+    margin-top: 300px;
+}
+.mainbd .twosd div p span{
+    font-size: 30px;
+}
+
+.iphrt{
+    margin-top: 50px;
+    background: #fafafa;
+}
+.iphrt>div{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+     display: flex;
+    justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around;
+    -webkit-justify-content:space-around;
+}
+.iphrt>div div:nth-child(2){
+    margin-top: 200px;
+}
+.iphrt>div div:nth-child(2) h1 span{
+    font-size: 40px;
+}
+
+
+
+.bill>div{
+    padding-top: 0;
+    height: 380px;
+    margin-top: 0;
+}
+.bill>div .billwp{
+    position: relative;
+    right: 300px;
+    top:30%;
+}
+.bill>div .billwp a{
+    color:#6bf;
+}
+
+
+
+.fotitle p:nth-child(1){
+    height: 110px;
+    line-height: 1.8rem;
+}
+.fotitle p:nth-child(2){
+    border: 0;
+}

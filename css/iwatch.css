@@ -1,0 +1,72 @@
+.macbody .macmg:nth-child(1)>img{
+    margin-top: -252px;
+    position: relative;
+    z-index: 0;
+}
+
+.macbody:nth-child(4) .macmg h1,.macbody:nth-child(4) .macmg p{
+    position: relative;
+    z-index: 9;
+}
+
+.mainbd{
+    background: #fff;
+}
+.mainbd .twoimg div p.sping{
+    margin-top: 0.5rem;
+}
+.mainbd .twoimg div{
+    height: 750px;
+}
+
+.mainbd .oneimg{
+    width: 70%;
+    margin:50px auto;
+    text-align: center;
+    padding-top: 70px;
+    background: #f2f2f2;
+}
+.mainbd .oneimg>img{
+    margin-top: 100px;
+}
+.mainbd .oneimg:nth-child(3) h4{
+    margin-top: 400px;
+    position: relative;
+    z-index: 1
+}
+.mainbd .oneimg:nth-child(3) p{
+    position: relative;
+    z-index: 1
+}
+.mainbd .oneimg:nth-child(3)>img{
+    position: relative;
+    z-index: 0;
+    margin-top: -560px;
+}
+.mainbd .oneimg:nth-child(4){
+    padding-top: 0;
+}
+.mainbd .oneimg:nth-child(4) img,.mainbd .oneimg:nth-child(8) img{
+    margin-top: 0;
+}
+
+.txtlinkw div p{
+    font-size: 30px;
+}
+.txtlinkw div a,.txtlinkw div span{
+    color: #0070c9;
+}
+.mainbd .oneimg:nth-child(8) img{
+    padding-bottom: 50px;
+}
+
+.macbody{
+    background: #f2f2f2;
+}
+.macbody:nth-child(6) .macmg{
+    padding-top: 0;
+}
+
+.fotitle p:nth-child(2){
+    border: 0;
+}

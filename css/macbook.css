@@ -1,0 +1,357 @@
+.titlenav{
+    height: 5rem;
+}
+.titlenav>div{
+    width:60%;
+    margin:0 auto;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content:space-between;
+    -webkit-justify-content:space-between;
+    -o-justify-content:space-between;
+    -moz-justify-content:space-between; 
+
+}
+/*#one,#two{
+    display: none;
+}
+#one:target,#two:target{
+    display: block;
+}*/
+.titlenav>div>div:nth-child(1) a{
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 5rem;
+}
+.titlenav>div>div:nth-child(1) a:hover{
+    text-decoration: none;
+}
+.titlenav>div>div:nth-child(2){
+    width:40%;
+    display: flex;
+    justify-content:space-around;
+    -webkit-justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around;  
+    line-height: 5rem;
+    vertical-align: middle
+}
+.titlenav>div>div:nth-child(2) a,.titlenav>div>div:nth-child(2) input{
+    font-size: 0.5rem;
+}
+.titlenav>div>div:nth-child(2) a:hover{
+    color:#0070c9;
+    text-decoration: none;
+}
+.titlenav>div>div:nth-child(2) input{
+    height: 35%;
+    width:8%;
+    margin-top: 1.5rem;
+    background-image: linear-gradient(to bottom,#42a1ec, #0070c9);
+    background-image: -o-linear-gradient(to bottom,#42a1ec, #0070c9);
+    background-image: -moz-linear-gradient(to bottom,#42a1ec, #0070c9);
+    background-image: -webkit-linear-gradient(to bottom,#42a1ec, #0070c9);
+    color: #fff;
+    border-radius: 3px;
+    border:1px solid #2189db;
+}
+.titlenav>div>div:nth-child(2) input:hover{
+    background: #2189db;
+}
+
+/*Macbook子页面，即Macbook的主页面*/
+#one{
+    text-align: center;
+}
+#one h1{
+    margin-top: 80px;
+}
+#one img{
+    margin-top: 60px;
+}
+#one>p,#one .keyboard p{
+    margin:0 auto;
+    margin-top: 40px;
+    width:40%;
+    color:#666;
+}
+#one>p a{
+    color: #bdb099;
+    font-size: 1.8rem;
+}
+#one>p a:hover{
+    color:#333;
+    text-decoration: none;
+}
+#one .fourtp{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: left;
+    display: flex;
+    justify-content:space-around; 
+    -webkit-justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around; 
+}
+#one .fourtp p span,#one .nopre .threetp p span,
+#one .keyboard .dcxh .smtxtt p:nth-child(4) span{
+    color: #bdb099;
+}
+#one .fourtp p .sum,#one .nopre .threetp p .sum,
+#one .keyboard .dcxh .smtxtt p:nth-child(4) .sum{
+    font-size: 4rem;
+}
+#one .fourtp p .txt,#one .fourtp p .txt2,
+#one .nopre .threetp p .txt2,
+#one .keyboard .dcxh .smtxtt p:nth-child(4) .txt2{
+    font-size: 0.5rem;
+}
+#one .fourtp p .txt2,
+#one .nopre .threetp p .txt2,
+#one .keyboard .dcxh .smtxtt p:nth-child(4) .txt2{
+    display: block;
+    margin-top: -5px;
+}
+#one .actimg{
+    margin-top: 100px;
+    background: #fafafa;
+}
+#one .actimg .bgc{
+    height:933px;
+    overflow: hidden;
+    background: url('../images/macbook2.jpg') no-repeat center center;
+}
+#one .actimg div:nth-child(2){
+    font-size: 16px;
+    margin-top: 30px;
+}
+#one .nopre{
+    padding-top: 60px;
+    background: #fafafa;
+    padding-bottom: 200px;
+}
+#one .nopre .smtxt h1{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    line-height: 4rem;
+}
+
+/*标题上的横线*/
+#one .nopre .smtxt h1 span,
+#one .keyboard h1 span{
+    position: absolute;
+    top:0;
+    left: 0;
+    width:50px;
+    height: 1px;
+    border-top: 1px solid #ccc;
+}
+
+
+#one .nopre .smtxt,#one .nopre .threetp{
+    width:38%;
+    margin-left: 25%;
+    text-align: left;
+}
+#one .nopre .threetp{
+    margin-top: 40px;
+    display: flex;
+    justify-content:space-between;
+    -webkit-justify-content:space-between;
+    -o-justify-content:space-between;
+    -moz-justify-content:space-between; 
+}
+
+#one .nopre .smtxt p,#one .nopre .smtxt p a,
+#one .keyboard p,#one .keyboard p a{
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+#one .nopre .smtxt p:nth-child(3),#one .nopre .smtxt p a,
+#one .keyboard .txtlink,#one .keyboard .txtlink a
+{
+    color: #0070c9;
+}
+
+/*键盘图片*/
+#one .keyboard h1{
+    position: relative;
+    padding:40px 0;
+}
+/*标题上的横线*/
+#one .keyboard h1 span{
+    top:0;
+    left:50%;
+    margin-left: -25px;
+}
+/*阴影图片*/
+#one .keyboard .imgbox{
+    height: 1100px;
+    overflow: hidden;
+}
+#one .keyboard .iconone{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    -webkit-justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around; 
+    padding-bottom: 60px;
+}
+#one .keyboard .usb{
+    padding-bottom: 500px;
+    background: url('../images/macbook6.jpg') no-repeat 315px 285px/100%;
+}
+#one .keyboard .usbc,#one .keyboard .usbc p{
+    color:#bdb099;
+}
+#one .keyboard .usbc .x{
+    width: 1px;
+    height:30px;
+    border-left:1px solid #bdb099; 
+}
+#one .keyboard .usbc .x3{
+    width: 30%;
+    height:30px;
+    border-width:1px 1px 0 1px;
+    border-color:#bdb099;  
+    border-style:solid;
+    margin-top: 0px;
+}
+#one .keyboard .usbc .icontwo{
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-around;
+    -webkit-justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around; 
+}
+
+/*电池续航dcxh*/
+#one .keyboard .dcxh{
+    width:80%;
+    margin: 0 auto;
+    text-align: left;
+}
+#one .keyboard .dcxh .smtxtt{
+    width:40%;
+    margin-left: 25%;
+    position: relative;
+}
+#one .keyboard .dcxh .smtxtt span{
+    left:30px;
+}
+#one .keyboard .dcxh .smtxtt p{
+    width:100%;
+}
+#one .keyboard .dcxh .smtxtt p:nth-child(3),
+#one .keyboard .dcxh .smtxtt p:nth-child(3) a{
+    color:#0070c9; 
+}
+#one .keyboard .dcxh .smtxtt p:nth-child(4){
+    position:absolute;
+    right: -676px;
+    top:200px; 
+}
+
+/*macbook9*/
+#one .keyboard .macbook9{
+    width: 100%;
+    height: 1198px;
+    background: url('../images/macbook9.jpg') no-repeat center center/50% 100%;
+    position: relative;
+}
+#one .keyboard .macbook9 div{
+    position: absolute;
+    top:360px;
+    left: 20%;
+    width: 20%;
+    text-align: left;
+}
+#one .keyboard .macbook9 div h1 span{
+    left: 0;
+    margin-left: 0;
+}
+#one .keyboard .macbook9 div p{
+    width: 100%;
+    text-align: left;
+}
+#one .keyboard .macbook10{
+    padding-top: 300px;
+    width: 100%;
+    height: 600px;
+    background: url('../images/macbook11.jpg') no-repeat center center/100% 100%;
+    margin-top:60px;
+}
+
+
+/*子页面公用底部*/
+.footicon,.free{
+    background:#f2f2f2;
+}
+.footicon>div{
+    padding-top:50px;
+    width: 30%;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-around;
+    -webkit-justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around; 
+}
+.footicon>div .txt h3{
+    font-size: 30px;
+}
+.footicon>div .txt p:nth-child(2){
+    font-size: 16px;
+}
+.footicon>div .txt p:nth-child(3),.footicon>div .txt p:nth-child(3) a{
+    font-size:0.8rem;
+    color: #0070c9;
+}
+/*底部免费送货*/
+.free>div{
+    padding-top:50px;
+    width: 50%;
+    margin:0 auto;
+    display: flex;
+    justify-content:space-between;
+    -webkit-justify-content:space-around;
+    -o-justify-content:space-around;
+    -moz-justify-content:space-around; 
+}
+.free>div .icons{
+    text-align: center;
+}
+.free>div .icons p{
+    font-size:0.8rem;
+    line-height: 1.8rem;
+}
+.free>div .icons a{
+    font-size:0.8rem;
+    color: #0070c9;
+}
+
+.fotitle{
+    padding-top: 50px;
+}
+.fotitle p{
+    border-top: 1px solid #d6d6d6; 
+}
+.fotitle p a{
+    color: #888;
+    font-size: 0.7rem;
+}
+.fotitle p a:hover{
+    text-decoration: underline;
+}
+.fotitle p:nth-child(2){
+    border:0;
+}
+.fotitle p:nth-child(2) a:hover{
+    text-decoration: none;
+}
